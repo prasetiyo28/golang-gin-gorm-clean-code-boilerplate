@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the Go compiler
+*.out
+
+# Vendor folder (if not using Go modules)
+vendor/
+
+# Dependency directories (auto-generated)
+bin/
+pkg/
+
+# GoLand project files
+.idea/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Go modules
+go.sum
+go.work
+go.work.sum
+
+# IDE/editor-specific files
+*.iml
+*.log
+*.swp
+*~ 
+*.sublime-workspace
+
+# Database-related (MySQL)
+*.db
+*.sqlite3
+
+# Environment files
+.env
+
+# Build artifacts
+/dist
+/build
+
+# Docker specific
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Test and coverage reports
+*.test
+*.cover
+coverage.out
